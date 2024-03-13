@@ -109,7 +109,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
     loop: true,
     // grabCursor: true,
     autoplay: {
-        delay: 5000, // Delay between transitions in milliseconds
+        delay: 10000, // Delay between transitions in milliseconds
         disableOnInteraction: true, // Whether to disable autoplay on user interaction
     },
     navigation: {
@@ -129,7 +129,7 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     spaceBetween: 48,
 
     autoplay: {
-        delay: 5000, // Delay between transitions in milliseconds
+        delay: 10000, // Delay between transitions in milliseconds
         disableOnInteraction: true, // Whether to disable autoplay on user interaction
     },
 
